@@ -1,0 +1,10 @@
+VERSION = 1,
+
+option UdderlyKnockedOut.MaxLossPercentage = {
+	type = double,
+	default = 30,
+	min = 0,
+	max = 100,
+	page = UdderlyKnockedOut,
+	translation = UdderlyKnockedOut_MaxLossPercentage,
+}

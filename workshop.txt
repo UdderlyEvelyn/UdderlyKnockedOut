@@ -1,0 +1,7 @@
+version=1
+id=2838580720
+title=Udderly Knocked Out
+description=An RP-friendly respawn mod with configurable random loss of skill levels, based on the "Respawn" mod by StarkSilence (with permission!), which can be found at:
+description=https://steamcommunity.com/sharedfiles/filedetails/?id=2687842971
+tags=Build 41;Balance;Multiplayer;Realistic
+visibility=public

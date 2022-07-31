@@ -1,0 +1,6 @@
+Sandbox_EN = {
+	Sandbox_UdderlyKnockedOut = "Udderly Knocked Out",
+	
+	Sandbox_UdderlyKnockedOut_MaxLossPercentage = "Max Loss Percentage",
+	Sandbox_UdderlyKnockedOut_MaxLossPercentage_tooltip = "The percentage (0-100 not decimal) of skill levels that can be lost up to, randomly, on respawn.",
+}
