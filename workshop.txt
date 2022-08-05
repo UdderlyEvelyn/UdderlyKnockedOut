@@ -3,5 +3,23 @@ id=2838580720
 title=Udderly Knocked Out
 description=An RP-friendly respawn mod with configurable random loss of skill levels, based on the "Respawn" mod by StarkSilence (with permission!), which can be found at:
 description=https://steamcommunity.com/sharedfiles/filedetails/?id=2687842971
+description=
+description=Features:
+description=[list]
+description=[*]RP-friendly language.
+description=[*]Respawn with a configurable skill loss chance - for RP purposes this helps enforce valuing your character's life and giving skillbooks, exercise equipment, etc. all a reason to continue to exist and be used.
+description=[*]Chance to lose a skill and how much can be lost is configurable on a per-skill basis.
+description=[*]Omitting a skill from the list will mean it cannot be lost during respawn.
+description=[*]Listing a skill with no settings will use the values above in the sandbox options.
+description=[*]Supports modded skills out of the box, just configure them like any other skill.
+description=[/list]
+description=
+description=The Skill Configuration sandbox option is semicolon-delimited and in the format of SkillName=ChanceToLose:MaxToLose; - the name is the normal in-game name, and the chances are in 0-100 percentage format.
+description=
+description=Planned Features:
+description=[list]
+description=[*]I tried to make the character "say" what skills were affected but there's no good "hook" to put code for that so it is not displaying at present. I intend to continue to look into this and enable that feature.
+description=[*]Recipes do not restore yet even though code is present for it, need to look into that.
+description=[/list]
 tags=Build 41;Balance;Multiplayer;Realistic
 visibility=public

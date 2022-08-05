@@ -1,6 +1,12 @@
 Sandbox_EN = {
 	Sandbox_UdderlyKnockedOut = "Udderly Knocked Out",
 	
-	Sandbox_UdderlyKnockedOut_MaxLossPercentage = "Max Loss Percentage",
-	Sandbox_UdderlyKnockedOut_MaxLossPercentage_tooltip = "The percentage (0-100 not decimal) of skill levels that can be lost up to, randomly, on respawn.",
+	Sandbox_UdderlyKnockedOut_ChanceToLose = "Default Chance To Lose Skill",
+	Sandbox_UdderlyKnockedOut_ChanceToLose_tooltip = "The percentage (0-100, not decimal) chance that a skill will be lost on respawn. Used as a default by items without a =X:Y section in the Skill Configuration below.",
+	
+	Sandbox_UdderlyKnockedOut_MaxLossPercentage = "Default Max Loss Percentage",
+	Sandbox_UdderlyKnockedOut_MaxLossPercentage_tooltip = "The percentage (0-100, not decimal) of skill levels that can be lost up to, randomly, on respawn, used as a default by items without a =X:Y section in the Skill Configuration below.",
+	
+	Sandbox_UdderlyKnockedOut_SkillConfiguration = "Skill Configuration",
+	Sandbox_UdderlyKnockedOut_SkillConfiguration_tooltip = "Semicolon-delimited list of skills with optional =X:Y setting after the name, where X is the percentage chance to lose some of that skill on respawn (not decimal) and Y is the percentage that can be lost (again not decimal). Items without this but that are present use the above defaults. Items not listed are unaffected on respawn.",
 }

@@ -1,5 +1,14 @@
 VERSION = 1,
 
+option UdderlyKnockedOut.ChanceToLose = {
+	type = double,
+	default = 60,
+	min = 0,
+	max = 100,
+	page = UdderlyKnockedOut,
+	translation = UdderlyKnockedOut_ChanceToLose,
+}
+
 option UdderlyKnockedOut.MaxLossPercentage = {
 	type = double,
 	default = 30,
@@ -7,4 +16,11 @@ option UdderlyKnockedOut.MaxLossPercentage = {
 	max = 100,
 	page = UdderlyKnockedOut,
 	translation = UdderlyKnockedOut_MaxLossPercentage,
+}
+
+option UdderlyKnockedOut.SkillConfiguration = {
+	type = string,
+	default = Carpentry;Electrical;Metalworking;Mechanics;Cooking=40:15;Farming=40:15;First Aid=40:15;Tailoring=40:15;Fishing=40:15;Trapping=40:15;Foraging=40:15;Maintenance=20:10;Aiming=20:10;Reloading=20:10;Sprinting=20:10;Sneaking=20:10;Lightfooted=20:10;Nimble=20:10;Axe=40:15;Long Blunt=40:15;Short Blunt=40:15;Long Blade=40:15;Short Blade=40:15;Spear=40:15;Strength=20:10;Fitness=20:10,
+	page = UdderlySkillbookXP,
+	translation = UdderlySkillbookXP_SkillConfiguration,
 }
